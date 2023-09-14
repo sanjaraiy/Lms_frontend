@@ -30,7 +30,9 @@
 
 1. Install tailwindcss
 ```
- npm install -D tailwindcss
+ npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p 
 
 ```
 2. Create tailwind config file
@@ -40,7 +42,7 @@
 ```
 3. Add file extensions to tailwind config file in the content property
 ```
-  "./src/**/*.{html,js,jsx,ts,tsx}"
+  "./src/**/*.{html,js,jsx,ts,tsx}","./index.html",
 
 ```
 
