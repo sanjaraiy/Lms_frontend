@@ -11,7 +11,7 @@ function Footer() {
             <section className='text-lg'>
                   Copyright {year} | All rights reserved
             </section>
-            <section className='flex items-center justify-center gap-5 text-2xl text-white'>
+            <section className='flex items-center justify-center gap-5 text-2xl text-white cursor-pointer'>
                 <a className='hover:text-yellow-500 transition-all ease-in-out duration-300'>
                     <BsFacebook></BsFacebook>
                 </a>
