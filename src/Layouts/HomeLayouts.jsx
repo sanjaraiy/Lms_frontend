@@ -84,7 +84,7 @@ function HomeLayouts({children}) {
                                     <Link to="/login">Login</Link>
                                 </button>
                                 <button className='btn-secondary px-4 py-1 font-semibold rounded-md w-full'>
-                                    <Link to="/login">Sign up</Link>
+                                    <Link to="/signup">Sign up</Link>
                                 </button>
                             </div>
                         </li>
