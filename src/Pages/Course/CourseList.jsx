@@ -15,7 +15,6 @@ function CourseList(){
   useEffect(()=>{
      loadCourses();
   },[]);
-}
 
 return (
     <HomeLayouts>
@@ -36,4 +35,5 @@ return (
     </HomeLayouts>
 )
 
+}
 export default CourseList;
