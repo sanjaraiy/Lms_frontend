@@ -32,7 +32,10 @@ function App() {
            <Route element={<RequireAuth allowedRoles={["ADMIN"]}></RequireAuth>}>
               <Route path='/course/create' element={<CreateCourse></CreateCourse>}></Route>
            </Route>
-
+           
+           <Route element={<RequireAuth allowedRoles={["ADMIN", "USER"]}></RequireAuth>}>
+              <Route path='/user/profile' element={<Profile></Profile>}></Route>
+           </Route>
           <Route path="/courses" element={<CourseList></CourseList>}></Route>
           <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
