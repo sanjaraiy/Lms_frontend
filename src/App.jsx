@@ -14,7 +14,8 @@ import CourseDescription from './pages/course/CourseDescription';
 import RequireAuth from './components/auth/RequireAuth';
 import CreateCourse from './pages/course/CreateCourse';
 import EditProfile from './pages/user/EditProfile';
-import Checkout from './pages/payment/Checkout'
+import Checkout from './pages/payment/Checkout';
+import Profile from './pages/user/Profile';
 
 
 function App() {

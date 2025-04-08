@@ -6,6 +6,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
 import { toast } from 'react-hot-toast'
 import { isEmail, isValidPassword } from "../helpers/regexMatcher";
+import { createAccount } from "../redux/slices/authSlice";
 
 function Signup() {
     const dispatch = useDispatch();
@@ -76,10 +77,14 @@ function Signup() {
         formData.append("email", signupData.email);
         formData.append("password", signupData.password);
         formData.append("avatar", signupData.avatar);
+        
+        for(const pair of formData.entries()) {
+            console.log(pair[0], pair[1]);
+        }
 
         try {
             // dispatch create account action
-            const response = await dispatch(createNewAccount(formData))
+            const response = await dispatch(createAccount(formData))
             if (response?.payload?.success) {
                 navigate("/");
             }
