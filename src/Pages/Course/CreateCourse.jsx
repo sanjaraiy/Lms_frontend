@@ -2,8 +2,8 @@ import React from 'react'
 import toast from 'react-hot-toast';
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom';
-import { createNewCourse } from '../../Redux/Slices/CourseSlice';
-import HomeLayouts from '../../Layouts/HomeLayouts';
+import { createNewCourse } from '../../redux/slices/courseSlice';
+import HomeLayouts from '../../layouts/HomeLayouts';
 import { AiOutlineArrowLeft } from 'react-icons/ai';
  
 function CreateCourse() {

@@ -1,7 +1,7 @@
-import HomeLayouts from "../Layouts/HomeLayouts"
+import HomeLayouts from "../layouts/HomeLayouts"
 import aboutMainImage from "../Assets/Images/aboutMainImage.png"
-import CarouselSlide from "../Components/CarouselSlide"
-import { celebrities } from "../Constants/CelebrityData"
+import CarouselSlide from "../components/CarouselSlide"
+import { celebrities } from "../constants/CelebrityData"
 function AboutUs() {
      
    return (

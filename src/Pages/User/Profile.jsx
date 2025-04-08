@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import HomeLayouts from '../../Layouts/HomeLayouts';
+import HomeLayouts from '../../layouts/HomeLayouts';
 
 function Profile() {
    

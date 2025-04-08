@@ -1,11 +1,11 @@
 
 import { BsPersonCircle } from "react-icons/bs";
-import HomeLayouts from "../Layouts/HomeLayouts"
+import HomeLayouts from "../layouts/HomeLayouts"
 import { useDispatch } from "react-redux";
 import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
 import { toast } from 'react-hot-toast';
-import {login} from '../Redux/Slices/AuthSlice';
+import {login} from '../redux/slices/authSlice';
 
 
 function Login() {

@@ -1,9 +1,9 @@
 import {FiMenu} from 'react-icons/fi';
 import { AiFillCloseCircle } from "react-icons/ai";
 import { Link,useNavigate} from 'react-router-dom';
-import Footer from '../Components/Footer';
+import Footer from '../components/Footer';
 import {useDispatch, useSelector} from 'react-redux'
-import { logout } from '../Redux/Slices/AuthSlice';
+import { logout } from '../redux/slices/authSlice';
 
 function HomeLayouts({children}) {
      

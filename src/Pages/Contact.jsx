@@ -1,7 +1,7 @@
 import toast from "react-hot-toast";
-import HomeLayouts from "../Layouts/HomeLayouts";
-import { isEmail } from "../Helpers/regexMatcher";
-import axiosInstance from "../Helpers/axiosInstance";
+import HomeLayouts from "../layouts/HomeLayouts";
+import { isEmail } from "../helpers/regexMatcher";
+import axiosInstance from "../helpers/axiosInstance";
 
 function Contact(){
     const [userInput, setUserInput] = useState({

@@ -1,20 +1,20 @@
 
-import AboutUs from './Pages/AboutUs';
+import AboutUs from './pages/AboutUs';
 
-import HomePage from './Pages/HomePage';
+import HomePage from './pages/HomePage';
 
 import { Routes,Route } from 'react-router-dom'
-import NotFound from './Pages/NotFound';
-import Signup from './Pages/Signup';
-import Login from './Pages/Login'
-import CourseList from './Pages/Course/CourseList';
-import Contact from './Pages/Contact';
-import Denied from './Pages/Denied';
-import CourseDescription from './Pages/Course/CourseDescription';
-import RequireAuth from './Components/Auth/RequireAuth';
-import CreateCourse from './Pages/Course/CreateCourse';
-import EditProfile from './Pages/User/EditProfile';
-import Checkout from './Pages/Payment/Checkout'
+import NotFound from './pages/NotFound';
+import Signup from './pages/Signup';
+import Login from './pages/Login'
+import CourseList from './pages/course/CourseList';
+import Contact from './pages/Contact';
+import Denied from './pages/Denied';
+import CourseDescription from './pages/course/CourseDescription';
+import RequireAuth from './components/auth/RequireAuth';
+import CreateCourse from './pages/course/CreateCourse';
+import EditProfile from './pages/user/EditProfile';
+import Checkout from './pages/payment/Checkout'
 
 
 function App() {

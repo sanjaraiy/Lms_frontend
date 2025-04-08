@@ -1,11 +1,11 @@
 
 import { BsPersonCircle } from "react-icons/bs";
-import HomeLayouts from "../Layouts/HomeLayouts"
+import HomeLayouts from "../layouts/HomeLayouts"
 import { useDispatch } from "react-redux";
 import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
 import { toast } from 'react-hot-toast'
-import { isEmail, isValidPassword } from "../Helpers/regexMatcher";
+import { isEmail, isValidPassword } from "../helpers/regexMatcher";
 
 function Signup() {
     const dispatch = useDispatch();

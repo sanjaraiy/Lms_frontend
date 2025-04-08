@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom';
-import { getRazorPayId, purchaseCourseBundle, verifyUserPayment } from '../../Redux/Slices/RazorpaySlice';
+import { getRazorPayId, purchaseCourseBundle, verifyUserPayment } from '../../redux/slices/razorpaySlice';
 import toast from 'react-hot-toast';
-import HomeLayouts from '../../Layouts/HomeLayouts';
+import HomeLayouts from '../../layouts/HomeLayouts';
 import {BiRupee} from "react-icons/bi"
 
 
